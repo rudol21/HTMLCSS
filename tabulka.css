@@ -1,0 +1,29 @@
+ul{
+    display: table;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    float: left;
+    font-size: 40px;
+    list-style-type: none;
+    border: 1px solid black;
+}
+ul:nth-child(even) {
+    background: green;
+}
+
+ul:nth-child(odd) {
+    background: darkblue;
+}
+ul:nth-child(3n) {
+    color: aliceblue;
+    font-weight: bolder;
+}
+ul:hover{
+    background: yellow;
+}
+ul li:hover{
+    background: darkgreen;
+}
