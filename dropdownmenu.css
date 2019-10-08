@@ -1,0 +1,27 @@
+ul {
+    display: table;
+    margin: 0;
+}
+ul li {
+    float: left;
+    list-style-type: none;
+    font-size: 50px;
+}
+ul ul {
+    list-style-type: none;
+}
+ul li:hover {
+    background: yellow;
+}
+ul ul li{
+    visibility: hidden;
+    background: blue;
+}
+ul li:hover li{
+    visibility: visible;
+    background:none;
+}
+ul ul li:nth-child(2n){
+    background-color: red;
+}
+
